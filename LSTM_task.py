@@ -12,23 +12,20 @@ print("="*60)
 print("LSTM Numerical Example - Implementation from Scratch")
 print("="*60)
 
+inputs = [1, 2, 3, 4]
+
 W_f = np.array([0.5, 0.1])  
 W_i = np.array([0.6, 0.2])  
 W_c = np.array([0.7, 0.3]) 
 W_o = np.array([0.8, 0.4])  
-
 b_f = 0
 b_i = 0
 b_c = 0
 b_o = 0
-
-W_y = 4
-b_y = 0
-
 h_prev = 0
 C_prev = 0
-
-inputs = [1, 2, 3, 4]
+W_y = 4
+b_y = 0
 
 print("\n" + "="*60)
 print("Step 2: Compute LSTM Values for Each Time Step")
